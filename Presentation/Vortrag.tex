@@ -86,7 +86,15 @@ style=authoryear-comp
     \item Quelle: \href{https://www.kaggle.com/mojocolors/900000-hands-of-blackjack-results}{Kaggle}
     \item Lizenz: Public Domain (CC0)
     \item $900000$ Hands
-    %Variablen - dein Part Jonah 
+    \begin{itemize}
+    \item $6$ Spieler(\texttt{PlayerNo}) + $1$ Kroupier
+	\item Jeder Spieler bekommt am Anfang zwei Karten mit Wert \texttt{ply2cardsum} und setzt Geld 
+    \item Es werden maximal 5 Karten an jeden ausgeteilt mit Wert \texttt{card[i]}/\texttt{dealcard[i]}
+    \item Exakt 21 Punkte? \texttt{blkjck}, gewonnen? \texttt{winloss}
+    \item Geschlagen oder \glqq busted \grqq\, \texttt{plybustbeat}/\texttt{dlbustbeat}
+    \item Geldgewinn \texttt{plwinamt}/\texttt{plwinamt}\\
+    \rightarrow() mögliche Zusatzfrage: Ist die Methode mit der größten Siegeswahrscheinlichkeit auch die mit dem größten Gewinn?
+    \end{itemize}
     \end{itemize}
 \end{frame}
 
