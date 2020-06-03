@@ -1,0 +1,107 @@
+\PassOptionsToPackage{unicode}{hyperref}
+\documentclass[aspectratio=1610, 9pt]{beamer}
+
+% Load packages you need here
+%\usepackage{polyglossia}
+%\setmainlanguage{german}
+
+\usepackage{csquotes}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{mathtools}
+
+\usepackage{braket}
+\usepackage{graphicx}
+
+\usepackage{hyperref}
+\hypersetup{
+  linkcolor= {tudark}, % internal links
+  citecolor={tugreen}, % citations
+  urlcolor={tudark} % external links/urls
+  }
+\usepackage{bookmark}
+
+\usepackage[english]{babel}
+\usepackage[
+backend=biber,
+style=authoryear-comp
+]{biblatex}
+
+\bibliography{lit.bib}
+
+\usepackage{siunitx}
+\usepackage{multicol}
+
+\usepackage{booktabs}
+
+\definecolor{light-gray}{HTML}{b0b5b0}
+
+% load the theme after all packages
+
+\usetheme[
+  showtotalframes, % show total number of frames in the footline
+]{tudo}
+
+% Put settings here, like
+\unimathsetup{
+  math-style=ISO,
+  bold-style=ISO,
+  nabla=upright,
+  partial=upright,
+  mathrm=sym,
+}
+
+\title{Vorhersage des wahrscheinlichsten Gewinner in dem Spiel Blackjack}
+\author[L.~Kolk,~J.~Blank]{Lars Kolk\\ Jonah Blank}
+\institute[ML-Seminar]{\\[0.3cm]TU Dortmund \\ \Large ML-Seminar}
+
+\begin{document}
+
+
+
+\maketitle
+
+
+\begin{frame}{Fragestellung}
+\begin{itemize}
+  \item Grundlegende Fragestellung:\\
+  \rightarrow{} ``Wie hoch ist die Wahrscheinlichkeit dass Spieler $x$ das Spiel nach $y$ ausgeteilten Karten gewinnt?''
+  \vspace{0.5cm}
+  \item Weitere möglichen Untersuchungsschwerpunkte:
+  \begin{itemize}
+    \item -
+  \end{itemize}
+\end{itemize}
+
+
+
+\end{frame}
+
+
+\begin{frame}{Datensatz}
+    \begin{itemize}
+    \item Quelle: \href{https://www.kaggle.com/mojocolors/900000-hands-of-blackjack-results}{Kaggle}
+    \item Lizenz: Public Domain (CC0)
+    \item $150000$ Spiele
+    %Variablen - dein Part Jonah 
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Methode zur Klassifikation und Vergleich mit Alternativen}
+  \begin{itemize}
+    \item Lerne Blackjack-Strategie \\
+    \rightarrow{} Nutze reinforced learning\\
+    \item Mögliche einfache Vergleichsmethode:
+    \begin{enumerate}
+      \item Kartenzählen
+      \item Wahrscheinlichkeitsrechnungen
+    \end{enumerate}
+    \item Kann ein Neuronales Netz Blackjack lernen?
+  \end{itemize}
+
+\end{frame}
+
+
+
+\end{document}
