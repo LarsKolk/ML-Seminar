@@ -84,7 +84,7 @@ style=authoryear-comp
         \item Quelle: \href{https://www.kaggle.com/wobotintelligence/face-mask-detection-dataset/data}{Kaggle}
         \item Lizenz: Public Domain (CC0)
         \item $6024$ Bilder \textrightarrow $7271$ Gesichter
-        \item 4 Oberklassen: 
+        \item 4 Oberklassen:
         \begin{itemize}
           \item face\_no\_mask: 0
           \item face\_other\_covering: 1
@@ -99,7 +99,7 @@ style=authoryear-comp
         \includegraphics[width = 0.8\textwidth]{images/Verteilung.png}
       \end{figure}
     \end{column}
-  \end{columns}  
+  \end{columns}
 \end{frame}
 
 \begin{frame}{Datenaufbereitung}
@@ -107,7 +107,7 @@ style=authoryear-comp
     \begin{column}{0.48\textwidth}
       \begin{itemize}
         \item Schneide Bilder auf Gesichter zu
-        \item Bringe alle Bilder auf die gleiche Größe 
+        \item Bringe alle Bilder auf die gleiche Größe
         \begin{itemize}
           \item $50 \times 50$ Pixel
         \end{itemize}
@@ -152,6 +152,55 @@ style=authoryear-comp
       \includegraphics[width = 0.8\textwidth]{images/Bilder.png}
     \end{column}
   \end{columns}
+\end{frame}
+
+\begin{frame}{Convolutional Neural Network}
+  \begin{figure}
+    \centering
+    \begin{minipage}{\textwidth}
+      \includegraphics[height=0.4\textheight]{images/grid.png}
+    \end{minipage}
+    \uncover<2>{
+      \begin{minipage}{\textwidth}
+        \includegraphics[height=0.55\textheight]{images/CNN.png}
+      \end{minipage}
+    }
+  \end{figure}
+\end{frame}
+
+\begin{frame}
+  \begin{figure}
+    \centering
+    \begin{minipage}{0.46\textwidth}
+      \includegraphics[width=0.85\textwidth]{images/loss.png}
+    \end{minipage}
+    \begin{minipage}{0.46\textwidth}
+      \includegraphics[width=0.85\textwidth]{images/acc.png}
+    \end{minipage}
+  \end{figure}
+\end{frame}
+
+\begin{frame}
+  \begin{figure}
+  \begin{minipage}{\textwidth}
+    \centering
+    \begin{minipage}{0.46\textwidth}
+      \includegraphics[width=0.85\textwidth]{images/mask.pdf}
+    \end{minipage}
+    \begin{minipage}{0.46\textwidth}
+      \includegraphics[width=0.85\textwidth]{images/other.pdf}
+    \end{minipage}
+  \end{minipage}
+  \begin{minipage}{\textwidth}
+    \centering
+    \begin{minipage}{0.46\textwidth}
+      \includegraphics[width=0.85\textwidth]{images/nomask.pdf}
+    \end{minipage}
+    \begin{minipage}{0.46\textwidth}
+      \includegraphics[width=0.85\textwidth]{images/conf.pdf}
+    \end{minipage}
+  \end{minipage}
+  \end{figure}
 \end{frame}
 
 \end{document}
