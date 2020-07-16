@@ -1,9 +1,9 @@
-[1] Config.pm:304> INFO - This is Biber 2.12
+[0] Config.pm:304> INFO - This is Biber 2.12
 [1] Config.pm:307> INFO - Logfile is 'build/Vortrag.blg'
-[26] biber:315> INFO - === Mi Jul 15, 2020, 17:06:09
-[46] Biber.pm:371> INFO - Reading 'build/Vortrag.bcf'
-[104] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
-[111] Utils.pm:193> WARN - The file 'build/Vortrag.bcf' does not contain any citations!
-[117] bbl.pm:636> INFO - Writing 'build/Vortrag.bbl' with encoding 'UTF-8'
-[117] bbl.pm:739> INFO - Output to build/Vortrag.bbl
-[117] Biber.pm:110> INFO - WARNINGS: 1
+[27] biber:315> INFO - === Do Jul 16, 2020, 11:20:25
+[47] Biber.pm:371> INFO - Reading 'build/Vortrag.bcf'
+[112] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
+[119] Utils.pm:193> WARN - The file 'build/Vortrag.bcf' does not contain any citations!
+[125] bbl.pm:636> INFO - Writing 'build/Vortrag.bbl' with encoding 'UTF-8'
+[125] bbl.pm:739> INFO - Output to build/Vortrag.bbl
+[125] Biber.pm:110> INFO - WARNINGS: 1

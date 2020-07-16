@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.07.0 (TeX Live 2018)  (format=lualatex 2019.4.28)  15 JUL 2020 17:15
+This is LuaTeX, Version 1.07.0 (TeX Live 2018)  (format=lualatex 2019.4.28)  16 JUL 2020 11:22
  restricted system commands enabled.
 **Vortrag.tex
 (./Vortrag.tex
@@ -48,7 +48,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.073 seconds
+luaotfload | main : initialization completed in 0.072 seconds
 (/home/lars/.local/texlive/2018/texmf-dist/tex/latex/beamer/beamer.cls
 Document Class: beamer 2018/12/02 v3.55 A class for typesetting presentations
 
@@ -2114,33 +2114,105 @@ Package luatex.def Info: images/Datensatz.png  used on input line 125.
 <images/NN.png, id=43, 695.59875pt x 397.485pt>
 File: images/NN.png Graphic file (type png)
 <use images/NN.png>
-Package luatex.def Info: images/NN.png  used on input line 140.
+Package luatex.def Info: images/NN.png  used on input line 143.
 (luatex.def)             Requested size: 163.2929pt x 93.30588pt.
-<images/History.png, id=44, 491.8375pt x 653.44125pt>
+<images/History.png, id=44, 496.85625pt x 661.47125pt>
 File: images/History.png Graphic file (type png)
 <use images/History.png>
-Package luatex.def Info: images/History.png  used on input line 140.
-(luatex.def)             Requested size: 163.2929pt x 216.94243pt.
+Package luatex.def Info: images/History.png  used on input line 143.
+(luatex.def)             Requested size: 163.2929pt x 217.39798pt.
 
-Overfull \vbox (13.78172pt too high) detected at line 140
+Overfull \vbox (14.23727pt too high) detected at line 143
  []
 
 [5
 
 <./images/NN.png><./images/History.png>]
-<images/Matrix.png, id=52, 429.605pt x 363.3575pt>
+<images/Matrix.png, id=52, 423.5825pt x 360.34625pt>
 File: images/Matrix.png Graphic file (type png)
 <use images/Matrix.png>
-Package luatex.def Info: images/Matrix.png  used on input line 155.
-(luatex.def)             Requested size: 102.05998pt x 86.32047pt.
+Package luatex.def Info: images/Matrix.png  used on input line 158.
+(luatex.def)             Requested size: 102.05998pt x 86.82027pt.
 <images/Bilder.png, id=53, 906.38625pt x 543.02875pt>
 File: images/Bilder.png Graphic file (type png)
 <use images/Bilder.png>
-Package luatex.def Info: images/Bilder.png  used on input line 155.
+Package luatex.def Info: images/Bilder.png  used on input line 158.
 (luatex.def)             Requested size: 238.13655pt x 142.66731pt.
  [6
 
 <./images/Matrix.png><./images/Bilder.png>]
+<images/grid.png, id=61, 749.04843pt x 549.55313pt>
+File: images/grid.png Graphic file (type png)
+<use images/grid.png>
+Package luatex.def Info: images/grid.png  used on input line 172.
+(luatex.def)             Requested size: 119.95306pt x 88.01228pt.
+<images/CNN.png, id=62, 569.12625pt x 555.57562pt>
+File: images/CNN.png Graphic file (type png)
+<use images/CNN.png>
+Package luatex.def Info: images/CNN.png  used on input line 172.
+(luatex.def)             Requested size: 123.96632pt x 121.01941pt.
+
+Overfull \vbox (12.28377pt too high) detected at line 172
+ []
+
+[7
+
+<./images/Grid.png><./images/CNN.png>]
+File: images/grid.png Graphic file (type png)
+<use images/grid.png>
+Package luatex.def Info: images/grid.png  used on input line 172.
+(luatex.def)             Requested size: 119.95306pt x 88.01228pt.
+File: images/CNN.png Graphic file (type png)
+<use images/CNN.png>
+Package luatex.def Info: images/CNN.png  used on input line 172.
+(luatex.def)             Requested size: 123.96632pt x 121.01941pt.
+
+Overfull \vbox (12.28377pt too high) detected at line 172
+ []
+
+[8
+
+]
+<images/loss.png, id=73, 433.62pt x 289.08pt>
+File: images/loss.png Graphic file (type png)
+<use images/loss.png>
+Package luatex.def Info: images/loss.png  used on input line 184.
+(luatex.def)             Requested size: 166.27405pt x 110.84842pt.
+<images/acc.png, id=74, 606.265pt x 410.53375pt>
+File: images/acc.png Graphic file (type png)
+<use images/acc.png>
+Package luatex.def Info: images/acc.png  used on input line 184.
+(luatex.def)             Requested size: 166.27405pt x 112.5933pt.
+ [9
+
+<./images/loss.png><./images/acc.png>]
+<images/mask.png, id=82, 614.295pt x 417.56pt>
+File: images/mask.png Graphic file (type png)
+<use images/mask.png>
+Package luatex.def Info: images/mask.png  used on input line 207.
+(luatex.def)             Requested size: 144.5818pt x 98.27951pt.
+<images/other.png, id=83, 614.295pt x 421.575pt>
+File: images/other.png Graphic file (type png)
+<use images/other.png>
+Package luatex.def Info: images/other.png  used on input line 207.
+(luatex.def)             Requested size: 144.5818pt x 99.22452pt.
+<images/nomask.png, id=84, 605.26125pt x 414.54875pt>
+File: images/nomask.png Graphic file (type png)
+<use images/nomask.png>
+Package luatex.def Info: images/nomask.png  used on input line 207.
+(luatex.def)             Requested size: 144.5818pt x 99.02563pt.
+<images/conf.png, id=85, 516.93124pt x 447.6725pt>
+File: images/conf.png Graphic file (type png)
+<use images/conf.png>
+Package luatex.def Info: images/conf.png  used on input line 207.
+(luatex.def)             Requested size: 136.07654pt x 117.84026pt.
+
+Overfull \vbox (5.03069pt too high) detected at line 207
+ []
+
+[10
+
+<./images/mask.png><./images/other.png><./images/nomask.png><./images/conf.png>]
 \tf@nav=\write6
 
 \openout6 = Vortrag.nav
@@ -2150,36 +2222,36 @@ Package luatex.def Info: images/Bilder.png  used on input line 155.
 \tf@snm=\write8
 
 \openout8 = Vortrag.snm
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 157.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 157.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 209.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 209.
  (./build/Vortrag.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 157.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 157.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 209.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 209.
 Package logreq Info: Writing requests to 'Vortrag.run.xml'.
 
 \openout1 = Vortrag.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 46964 strings out of 494383
+ 47071 strings out of 494383
  100000,1648299 words of node,token memory allocated
- 2118 words of node memory still in use:
-   45 hlist, 10 vlist, 6 rule, 1 disc, 7 local_par, 4 math, 53 glue, 9 kern, 23 
-penalty, 12 glyph, 80 attribute, 80 glue_spec, 80 attribute_list, 3 write, 24 pd
-f_literal, 10 pdf_colorstack, 2 pdf_setmatrix, 2 pdf_save, 2 pdf_restore nodes
-   avail lists: 1:5,2:386,3:151,4:150,5:182,6:31,7:913,8:26,9:181,10:12,11:40,12
+ 2461 words of node memory still in use:
+   63 hlist, 14 vlist, 8 rule, 1 disc, 11 local_par, 11 math, 66 glue, 11 kern, 
+26 penalty, 12 glyph, 80 attribute, 80 glue_spec, 80 attribute_list, 3 write, 10
+ pdf_colorstack, 4 pdf_setmatrix, 4 pdf_save, 4 pdf_restore nodes
+   avail lists: 1:5,2:386,3:166,4:150,5:181,6:27,7:893,8:24,9:159,10:12,11:40,12
 :1
- 49584 multiletter control sequences out of 65536+600000
+ 49623 multiletter control sequences out of 65536+600000
  97 fonts using 33755903 bytes
  59i,15n,132p,773b,1605s stack positions out of 5000i,500n,10000p,200000b,100000s
 </home/lars/.local/texlive/2018/texmf-dist/fonts/opentype/public/lm-math/latinmo
 dern-math.otf></home/lars/.local/texlive/2018/texmf-dist/fonts/opentype/public/f
 ira/FiraSans-Light.otf></home/lars/.local/texlive/2018/texmf-dist/fonts/opentype
 /public/fira/FiraSans-Medium.otf>
-Output written on Vortrag.pdf (6 pages, 537843 bytes).
+Output written on Vortrag.pdf (10 pages, 805248 bytes).
 
-PDF statistics: 83 PDF objects out of 1000 (max. 8388607)
- 47 compressed objects within 1 object stream
- 13 named destinations out of 1000 (max. 131072)
+PDF statistics: 117 PDF objects out of 1000 (max. 8388607)
+ 63 compressed objects within 1 object stream
+ 21 named destinations out of 1000 (max. 131072)
  16 words of extra memory for PDF output out of 10000 (max. 100000000)
 
