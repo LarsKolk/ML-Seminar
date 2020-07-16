@@ -1,10 +1,10 @@
 # Fdb version 3
-["biber build/Vortrag"] 1594891225 "build/Vortrag.bcf" "build/Vortrag.bbl" "build/Vortrag" 1594891352
-  "build/Vortrag.bcf" 1594891352 91072 3ac600507a442ff70c75b23ba25ff037 ""
+["biber build/Vortrag"] 1594891225 "build/Vortrag.bcf" "build/Vortrag.bbl" "build/Vortrag" 1594891721
+  "build/Vortrag.bcf" 1594891721 91072 3ac600507a442ff70c75b23ba25ff037 ""
   (generated)
-  "build/Vortrag.blg"
   "build/Vortrag.bbl"
-["lualatex"] 1594891346 "Vortrag.tex" "build/Vortrag.pdf" "Vortrag" 1594891352
+  "build/Vortrag.blg"
+["lualatex"] 1594891715 "Vortrag.tex" "build/Vortrag.pdf" "Vortrag" 1594891721
   "/home/lars/.local/texlive/2018/texmf-dist/fonts/opentype/public/fira/FiraSans-Light.otf" 1480098676 359048 020f40e1d993eebe994bf90a060f9dde ""
   "/home/lars/.local/texlive/2018/texmf-dist/fonts/opentype/public/fira/FiraSans-Medium.otf" 1480098676 366052 f255f5eaf67ade842bae0d10ec988b81 ""
   "/home/lars/.local/texlive/2018/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf" 1480098679 733736 0b8cd5044567d896491fd777c12d5cda ""
@@ -233,12 +233,12 @@
   "/home/lars/.local/texlive/2018/texmf-var/luatex-cache/generic/fonts/otl/lmsans9-regular.luc" 1556490128 130877 f7e4f7aaec2d720a0da2cec29484e8fc ""
   "/home/lars/.local/texlive/2018/texmf-var/tex/generic/config/language.dat" 1556478617 6580 8509fce5ddb870030297c60436cc58e2 ""
   "/home/lars/.local/texlive/2018/texmf-var/web2c/luatex/lualatex.fmt" 1556478639 1370313 a45f781ac40e8c38daf426bcc97912b2 ""
-  "Vortrag.tex" 1594891345 5118 e74fb1564b275428127561a004177f17 ""
+  "Vortrag.tex" 1594891713 5122 09fd87c07828850894322e9fdfeaf47e ""
   "beamerthemetudo.sty" 1591211639 6493 e6b7fa40f497ec4d8c516b36f34d432c ""
-  "build/Vortrag.aux" 1594891352 2561 be4fde6e4805fe26fa40498f5a75dd67 ""
+  "build/Vortrag.aux" 1594891721 2561 be4fde6e4805fe26fa40498f5a75dd67 ""
   "build/Vortrag.bbl" 1594891226 466 d461c786d5ba60caa26aa3f363275b19 "biber build/Vortrag"
-  "build/Vortrag.nav" 1594891352 1019 b17f5ad89484746d65a6b54c0621f34e ""
-  "build/Vortrag.run.xml" 1594891352 2404 d23072ea8f280727f80734babaad46e0 ""
+  "build/Vortrag.nav" 1594891721 1019 b17f5ad89484746d65a6b54c0621f34e ""
+  "build/Vortrag.run.xml" 1594891721 2404 d23072ea8f280727f80734babaad46e0 ""
   "images/Bilder.png" 1594825543 228906 d9e9081e4bf4e3e0806826e8b796e449 ""
   "images/CNN.png" 1594890115 59699 00322c3eeef035b1ec22afa187312d53 ""
   "images/Datensatz.png" 1594823274 158243 602f096473cd6369e22a426d069f55ea ""
@@ -254,11 +254,11 @@
   "images/nomask.png" 1594891146 25856 4ba55716061dc6ba1b4afda082dfa717 ""
   "images/other.png" 1594891128 29528 f4cf32a1920035fad29947312e4e97b8 ""
   (generated)
-  "build/Vortrag.bcf"
-  "build/Vortrag.nav"
   "build/Vortrag.log"
-  "build/Vortrag.snm"
   "build/Vortrag.run.xml"
-  "build/Vortrag.aux"
-  "build/Vortrag.toc"
+  "build/Vortrag.snm"
   "build/Vortrag.pdf"
+  "build/Vortrag.nav"
+  "build/Vortrag.toc"
+  "build/Vortrag.aux"
+  "build/Vortrag.bcf"

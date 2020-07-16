@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.07.0 (TeX Live 2018)  (format=lualatex 2019.4.28)  16 JUL 2020 11:22
+This is LuaTeX, Version 1.07.0 (TeX Live 2018)  (format=lualatex 2019.4.28)  16 JUL 2020 11:28
  restricted system commands enabled.
 **Vortrag.tex
 (./Vortrag.tex
@@ -48,7 +48,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.072 seconds
+luaotfload | main : initialization completed in 0.078 seconds
 (/home/lars/.local/texlive/2018/texmf-dist/tex/latex/beamer/beamer.cls
 Document Class: beamer 2018/12/02 v3.55 A class for typesetting presentations
 
@@ -2145,32 +2145,24 @@ Package luatex.def Info: images/Bilder.png  used on input line 158.
 File: images/grid.png Graphic file (type png)
 <use images/grid.png>
 Package luatex.def Info: images/grid.png  used on input line 172.
-(luatex.def)             Requested size: 119.95306pt x 88.01228pt.
+(luatex.def)             Requested size: 183.70256pt x 134.77167pt.
 <images/CNN.png, id=62, 569.12625pt x 555.57562pt>
 File: images/CNN.png Graphic file (type png)
 <use images/CNN.png>
 Package luatex.def Info: images/CNN.png  used on input line 172.
-(luatex.def)             Requested size: 123.96632pt x 121.01941pt.
-
-Overfull \vbox (12.28377pt too high) detected at line 172
- []
-
-[7
+(luatex.def)             Requested size: 188.18565pt x 183.70256pt.
+ [7
 
 <./images/Grid.png><./images/CNN.png>]
 File: images/grid.png Graphic file (type png)
 <use images/grid.png>
 Package luatex.def Info: images/grid.png  used on input line 172.
-(luatex.def)             Requested size: 119.95306pt x 88.01228pt.
+(luatex.def)             Requested size: 183.70256pt x 134.77167pt.
 File: images/CNN.png Graphic file (type png)
 <use images/CNN.png>
 Package luatex.def Info: images/CNN.png  used on input line 172.
-(luatex.def)             Requested size: 123.96632pt x 121.01941pt.
-
-Overfull \vbox (12.28377pt too high) detected at line 172
- []
-
-[8
+(luatex.def)             Requested size: 188.18565pt x 183.70256pt.
+ [8
 
 ]
 <images/loss.png, id=73, 433.62pt x 289.08pt>
@@ -2242,13 +2234,13 @@ Here is how much of LuaTeX's memory you used:
    avail lists: 1:5,2:386,3:166,4:150,5:181,6:27,7:893,8:24,9:159,10:12,11:40,12
 :1
  49623 multiletter control sequences out of 65536+600000
- 97 fonts using 33755903 bytes
+ 97 fonts using 33755823 bytes
  59i,15n,132p,773b,1605s stack positions out of 5000i,500n,10000p,200000b,100000s
 </home/lars/.local/texlive/2018/texmf-dist/fonts/opentype/public/lm-math/latinmo
 dern-math.otf></home/lars/.local/texlive/2018/texmf-dist/fonts/opentype/public/f
 ira/FiraSans-Light.otf></home/lars/.local/texlive/2018/texmf-dist/fonts/opentype
 /public/fira/FiraSans-Medium.otf>
-Output written on Vortrag.pdf (10 pages, 805248 bytes).
+Output written on Vortrag.pdf (10 pages, 805270 bytes).
 
 PDF statistics: 117 PDF objects out of 1000 (max. 8388607)
  63 compressed objects within 1 object stream
